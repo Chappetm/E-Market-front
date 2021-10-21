@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&family=M+PLUS+Rounded+1c:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@400;600&family=M+PLUS+Rounded+1c:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kalam&family=Raleway:wght@500&display=swap');
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+select:focus{
+  box-shadow: 0 0 0 0.25rem rgb(253 13 13 / 25%) !important;
+  border-color: #b2102f !important;
+}
+
+.inputFrom:focus{
+  box-shadow: 0 0 0 0.25rem rgb(253 13 13 / 25%) !important;
+  border-color: #b2102f !important;
+}
+
+.textareaForm:focus{
+  box-shadow: 0 0 0 0.25rem rgb(253 13 13 / 25%) !important;
+  border-color: #b2102f !important;
+}
+
+#spanError{
+  text-align: center;
+  color: #b2102f;
+}
+
+#title{
+  font-family: 'Raleway';
+}
+
+#edit:hover{
+  color: #757575;
+}
+
+#button:hover{
+  color: white
+}
+
+#side:hover{
+  color: #b2102f;
+}
+
+#bread{
+  color: firebrick;
+}
+
+#root {
+  height:100%;
+  width: 100%;
+}
+#link{
+  color: #b2102f;
+}
+body {
+  height: 100%;
+  width:100%;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
