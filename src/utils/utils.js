@@ -1,46 +1,46 @@
 //PRODUCT
-export const URL_PRODUCTS = 'http://localhost:5000/product';
-export const URL_PRODUCTS_ID = 'http://localhost:5000/product/';
-export const URL_STOCK_ID = 'http://localhost:5000/product/inStock/'
-export const URL_PRODUCTS_QUERY = 'http://localhost:5000/product?name='
-export const URL_PRODUCTS_DETAIL = 'http://localhost:5000/product/?id='
-export const URL_PRODUCT_CREATE = 'http://localhost:5000/product/create';
-export const URL_MODIFY_PRODUCT = 'http://localhost:5000/product/update/'
-export const URL_DELETE_PRODUCT = 'http://localhost:5000/product/delete/'
+export const URL_PRODUCTS = 'https://henry-e-market.herokuapp.com/product';
+export const URL_PRODUCTS_ID = 'https://henry-e-market.herokuapp.com/product/';
+export const URL_STOCK_ID = 'https://henry-e-market.herokuapp.com/product/inStock/'
+export const URL_PRODUCTS_QUERY = 'https://henry-e-market.herokuapp.com/product?name='
+export const URL_PRODUCTS_DETAIL = 'https://henry-e-market.herokuapp.com/product/?id='
+export const URL_PRODUCT_CREATE = 'https://henry-e-market.herokuapp.com/product/create';
+export const URL_MODIFY_PRODUCT = 'https://henry-e-market.herokuapp.com/product/update/'
+export const URL_DELETE_PRODUCT = 'https://henry-e-market.herokuapp.com/product/delete/'
 
 //USERS
-export const URL_GET_USERS = 'http://localhost:5000/user'
-export const URL_CHECK_LOGIN = 'http://localhost:5000/user/checkLogin'
-export const URL_SET_LOGIN = 'http://localhost:5000/user/login'
-export const URL_UPDATE_USER = 'http://localhost:5000/user/update/'
-export const URL_DELETE_USER = 'http://localhost:5000/user/delete/'
-export const URL_GET_USER_ID = 'http://localhost:5000/user/'
-export const URL_SET_SUBSCRIPTION = 'http://localhost:5000/user/subscription'
-export const URL_RESET_PASSWORD = 'http://localhost:5000/user/resetPassword'
-export const URL_LOGIN = 'http://localhost:5000/user/login'
-export const URL_LOGIN_GOOGLE = 'http://localhost:5000/user/loginGoogle'
-export const URL_SEND_EMAIL = 'http://localhost:5000/user/sendEmail'
-export const URL_SEND_EMAIL_CHECKOUT = 'http://localhost:5000/user/sendEmailCheckout'
-export const URL_ADD_TO_WISHLIST = 'http://localhost:5000/user/addToWishList'
-export const URL_GET_WISHLIST = 'http://localhost:5000/user/whishlist/'
-export const URL_DELETE_WISH_ITEM = 'http://localhost:5000/user/wishlist/delete'
+export const URL_GET_USERS = 'https://henry-e-market.herokuapp.com/user'
+export const URL_CHECK_LOGIN = 'https://henry-e-market.herokuapp.com/user/checkLogin'
+export const URL_SET_LOGIN = 'https://henry-e-market.herokuapp.com/user/login'
+export const URL_UPDATE_USER = 'https://henry-e-market.herokuapp.com/user/update/'
+export const URL_DELETE_USER = 'https://henry-e-market.herokuapp.com/user/delete/'
+export const URL_GET_USER_ID = 'https://henry-e-market.herokuapp.com/user/'
+export const URL_SET_SUBSCRIPTION = 'https://henry-e-market.herokuapp.com/user/subscription'
+export const URL_RESET_PASSWORD = 'https://henry-e-market.herokuapp.com/user/resetPassword'
+export const URL_LOGIN = 'https://henry-e-market.herokuapp.com/user/login'
+export const URL_LOGIN_GOOGLE = 'https://henry-e-market.herokuapp.com/user/loginGoogle'
+export const URL_SEND_EMAIL = 'https://henry-e-market.herokuapp.com/user/sendEmail'
+export const URL_SEND_EMAIL_CHECKOUT = 'https://henry-e-market.herokuapp.com/user/sendEmailCheckout'
+export const URL_ADD_TO_WISHLIST = 'https://henry-e-market.herokuapp.com//user/addToWishList'
+export const URL_GET_WISHLIST = 'https://henry-e-market.herokuapp.com/user/whishlist/'
+export const URL_DELETE_WISH_ITEM = 'https://henry-e-market.herokuapp.com/user/wishlist/delete'
 
 //ROLES
-export const URL_GET_ROLES = 'http://localhost:5000/role'
+export const URL_GET_ROLES = 'https://henry-e-market.herokuapp.com//role'
 
 //CATEGORY
-export const URL_CATEGORIES  = 'http://localhost:5000/category';
-export const URL_CATEGORIE_BY_ID = 'http://localhost:5000/category/'
-export const URL_CATEGORY_CREATE = 'http://localhost:5000/category/create';
-export const URL_DELETE_CATEGORY = 'http://localhost:5000/category/delete/';
-export const URL_MODIFY_CATEGORY = 'http://localhost:5000/category/update'
+export const URL_CATEGORIES  = 'https://henry-e-market.herokuapp.com//category';
+export const URL_CATEGORIE_BY_ID = 'https://henry-e-market.herokuapp.com//category/'
+export const URL_CATEGORY_CREATE = 'https://henry-e-market.herokuapp.com//category/create';
+export const URL_DELETE_CATEGORY = 'https://henry-e-market.herokuapp.com//category/delete/';
+export const URL_MODIFY_CATEGORY = 'https://henry-e-market.herokuapp.com//category/update'
 
 //ORDER
-export const URL_GET_ORDER_BY_USER = 'http://localhost:5000/order/user/'
-export const URL_GET_ORDERS = 'http://localhost:5000/order'
-export const URL_CREATE_VIEWERS = 'http://localhost:5000/viewers/create'
-export const URL_ORDER_CREATE = 'http://localhost:5000/order/create'
-export const URL_ORDER_BY_ID = 'http://localhost:5000/order/detail/'
-export const URL_MODIFY_STATUS = 'http://localhost:5000/order/status'
+export const URL_GET_ORDER_BY_USER = 'https://henry-e-market.herokuapp.com//order/user/'
+export const URL_GET_ORDERS = 'https://henry-e-market.herokuapp.com//order'
+export const URL_CREATE_VIEWERS = 'https://henry-e-market.herokuapp.com//viewers/create'
+export const URL_ORDER_CREATE = 'https://henry-e-market.herokuapp.com//order/create'
+export const URL_ORDER_BY_ID = 'https://henry-e-market.herokuapp.com//order/detail/'
+export const URL_MODIFY_STATUS = 'https://henry-e-market.herokuapp.com//order/status'
 // MERCADOPAGO
-export const MERCADOPAGO_URL = 'http://localhost:5000/mercadopago';
+export const MERCADOPAGO_URL = 'https://henry-e-market.herokuapp.com//mercadopago';
